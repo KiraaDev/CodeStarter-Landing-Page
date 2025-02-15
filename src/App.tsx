@@ -7,7 +7,7 @@ function App() {
 
 
   return (
-    <main className="flex justify-center h-[200svh]">
+    <main className="flex justify-center h-[200svh] bg-[#FAFAFA]">
       <Header />
       <div className="pt-[10svh] w-[90%] overflow-hidden md:w-[85%]">
         <HeroSection />

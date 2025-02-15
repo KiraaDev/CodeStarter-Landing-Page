@@ -8,7 +8,7 @@ function Header() {
     };
 
     return (
-        <header className="flex justify-around items-center h-[10svh] bg-white fixed w-full top-0 left-0 z-10">
+        <header className="flex justify-around items-center h-[10svh] bg-[#FAFAFA] fixed w-full top-0 left-0 z-10">
             <div className="md:hidden">
                 <button className="flex flex-col gap-1 items-center cursor-pointer" onClick={toggleSidebar}>
                     <span className="block w-6 h-1 bg-gray-800"></span>
