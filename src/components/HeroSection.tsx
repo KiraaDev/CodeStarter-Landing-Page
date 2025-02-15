@@ -7,7 +7,7 @@ function HeroSection() {
             <h1 className="text-3xl text-center md:text-5xl">Build <strong>Faster</strong> with <br />
                 Ready-to-Use <strong>Templates</strong>
             </h1>
-            <div className="border-1 h-60 w-[60%] absolute bottom-[-10px]">
+            <div className="shadow-2xl rounded-md h-60 w-[60%] absolute bottom-[-10px]">
 
             </div>
         </section>
