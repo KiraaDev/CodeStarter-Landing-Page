@@ -21,11 +21,21 @@ function Header() {
                             <div className="relative flex max-h-10 items-center lg:hidden">
                                 <button
                                     onClick={toggleNavLinks}
-                                    aria-label="humburger" id="hamburger" className="relative -mr-6 p-6 active:scale-95 duration-300">
-                                    <div aria-hidden="true" id="line" className="m-auto h-0.5 w-5 rounded bg-blue-950 transition duration-300 dark:bg-white origin-top group-data-[state=active]:rotate-45 group-data-[state=active]:translate-y-1.5"></div>
-                                    <div aria-hidden="true" id="line2" className="m-auto mt-2 h-0.5 w-5 rounded bg-blue-950 transition duration-300 dark:bg-white origin-bottom group-data-[state=active]:-rotate-45 group-data-[state=active]:-translate-y-1"></div>
+                                    aria-label="Toggle navigation"
+                                    aria-expanded={navLinks}
+                                    className="relative p-6 -mr-6 transition-transform duration-300 active:scale-95 focus:outline-none"
+                                >
+                                    <span
+                                        className={`block m-auto h-0.5 w-5 rounded bg-gray-950 dark:bg-white transition-transform duration-300 
+                                         ${navLinks ? "rotate-45 translate-y-1.5" : "origin-top"}`}
+                                    ></span>
+                                    <span
+                                        className={`block m-auto mt-2 h-0.5 w-5 rounded bg-gray-950 dark:bg-white transition-transform duration-300 
+                                            ${navLinks ? "-rotate-45 -translate-y-1" : "origin-bottom"}`}
+                                    ></span>
                                 </button>
                             </div>
+
                         </div>
                         <div id="navLayer" aria-hidden="true" className="fixed inset-0 z-10 h-screen w-screen origin-bottom scale-y-0 bg-white/70 backdrop-blur-2xl transition duration-500 group-data-[state=active]:origin-top group-data-[state=active]:scale-y-100 dark:bg-gray-950/70 lg:hidden"></div>
 
