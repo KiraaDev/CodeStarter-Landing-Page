@@ -10,7 +10,7 @@ function Header() {
 
     return (
         <header>
-            <nav id="nav" data-state={navLinks ? "active" : ""} className="absolute group z-10 w-full border-b border-black/5 dark:border-white/5 lg:border-transparent">
+            <nav id="nav" data-state={navLinks ? "active" : ""} className="fixed z-20 group bg-white w-full border-b border-black/5 dark:bg-gray-950 dark:border-white/5 lg:border-transparent">
                 <div className="max-w-7xl mx-auto px-6 md:px-12">
                     <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 md:gap-0 md:py-4">
                         <div className="relative z-20 flex w-full justify-between md:px-0 lg:w-fit">
@@ -53,7 +53,7 @@ function Header() {
                             </div>
 
                             <div className="mt-12 lg:mt-0">
-                                <a href="/register" className="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
+                                <a href="/register" className="relative bg-blue-900 flex border-1 rounded-full h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
                                     <span className="relative text-sm font-semibold text-white"> Get Started</span>
                                 </a>
                             </div>
