@@ -53,7 +53,7 @@ function Header() {
                             </div>
 
                           
-                            <button className="cursor-pointer text-sm font-bold transition-all duration-200 px-4 py-2 rounded-full bg-blue-900 border border-transparent flex items-center hover:bg-blue-950 active:scale-95 mt-0 group-data-[state=active]:mt-10">
+                            <button className="cursor-pointer text-sm font-bold transition-all duration-200 px-4 py-2 rounded-full bg-blue-700 hover:bg-blue-800  border border-transparent flex items-center dark:bg-blue-900  hover:dark:bg-blue-950 active:scale-95 mt-0 group-data-[state=active]:mt-10">
                                 <span className="text-white">Get Started</span>
                                 <svg
                                     width="27"

@@ -3,7 +3,7 @@
 function HeroSection() {
 
     return (
-        <section className="relative w-full z-0 h-[65svh] flex justify-center items-center flex-col gap-10 rounded-md bg-gradient-to-t overflow-hidden md:h-[70svh] ">
+        <section className="relative w-full z-0 h-[70svh] flex justify-center items-center flex-col gap-10 rounded-md bg-gradient-to-t overflow-hidden md:h-[70svh] ">
             <div
                 className="absolute h-full -z-10 w-full bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"
             ></div>
@@ -13,8 +13,11 @@ function HeroSection() {
                 </h1>
                 <p className="mt-8 text-gray-700 dark:text-gray-300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt autem cupiditate nostrum suscipit accusamus consequatur blanditiis saepe nemo eius omnis! Totam reiciendis</p>
             </div>
+            <div>
+                <button className="cursor-pointer bg-blue-700 hover:bg-blue-800 text-md font-bold transition-all duration-200 px-5 py-2 rounded-full dark:bg-blue-900 border border-transparent flex items-center hover:dark:bg-blue-950 active:scale-95 mt-0 group-data-[state=active]:mt-10">
+                    <span className="text-white">Learn More</span></button>
+            </div>
 
-    
         </section>
     )
 }
