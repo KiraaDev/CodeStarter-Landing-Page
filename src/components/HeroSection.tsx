@@ -13,9 +13,13 @@ function HeroSection() {
                 </h1>
                 <p className="mt-8 text-gray-700 dark:text-gray-300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt autem cupiditate nostrum suscipit accusamus consequatur blanditiis saepe nemo eius omnis! Totam reiciendis</p>
             </div>
-            <div>
-                <button className="cursor-pointer bg-blue-700 hover:bg-blue-800 text-md font-bold transition-all duration-200 px-5 py-2 rounded-full dark:bg-blue-900 border border-transparent flex items-center hover:dark:bg-blue-950 active:scale-95 mt-0 group-data-[state=active]:mt-10">
-                    <span className="text-white">Learn More</span></button>
+            <div className="flex gap-5">
+                <button className="cursor-pointer bg-blue-700 hover:bg-blue-800 text-md font-bold transition-all duration-200 px-5 py-2 rounded-full dark:bg-blue-900 border border-transparent flex items-center hover:dark:bg-blue-950 active:scale-95">
+                    <span className="text-white">Learn More</span>
+                </button>
+                <button className="cursor-pointer text-blue-700 border-blue-700 hover:border-blue-900 text-md font-bold transition-all duration-200 px-5 py-2 rounded-full border  flex items-center active:scale-95">
+                    <span className="">View Templates</span>
+                </button>
             </div>
 
         </section>
