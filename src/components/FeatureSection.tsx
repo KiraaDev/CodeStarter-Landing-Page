@@ -1,4 +1,4 @@
-import React from 'react'
+
 import FeatureCard from './FeatureCard'
 import Fast from '../assets/fast.svg';
 import EasyToUse from '../assets/easy.svg';
