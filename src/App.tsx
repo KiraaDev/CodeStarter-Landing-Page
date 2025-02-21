@@ -1,7 +1,7 @@
 import FeatureSection from "./components/FeatureSection"
 import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"
-
+import AboutSection from "./components/AboutSection"
 function App() {
 
 
@@ -11,8 +11,10 @@ function App() {
       
       <div className="pt-[10svh] w-[90%] md:w-[85%] mx-auto flex flex-col items-center">
         <HeroSection />
+        <AboutSection />
         <FeatureSection />
         {/* <Highlights /> */}
+        
       </div>
     </main>
   )
