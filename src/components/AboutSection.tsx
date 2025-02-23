@@ -1,5 +1,15 @@
+import React from "react"
 
+const TechStackBadge: React.FC<{ name: string }> = ({ name }) => {
 
+    return (
+        <span
+            className="px-4 py-2 bg-white bg-opacity-50 rounded-lg text-gray-700 font-semibold shadow-xs shadow-blue-600 hover:shadow-md transition-shadow duration-300 cursor-pointer"
+        >
+            {name}
+        </span>
+    )
+}
 function AboutSection() {
 
     const techs = ["React", "Next.js", "TypeScript", "Tailwind CSS"]
@@ -22,13 +32,8 @@ function AboutSection() {
                                 Discover a treasure trove of reusable code templates and components. Our platform empowers developers to build faster, smarter, and more efficiently.
                             </p>
                             <div className="flex flex-wrap gap-4 mb-8">
-                                {techs.map((item, index) => (
-                                    <span
-                                        key={index}
-                                        className="px-4 py-2 bg-white bg-opacity-50 rounded-full text-gray-700 font-semibold shadow-md hover:shadow-lg transition-shadow duration-300"
-                                    >
-                                        {item}
-                                    </span>
+                                {techs.map((tech, index) => (
+                                    <TechStackBadge key={index} name={tech}  />
                                 ))}
                             </div>
 
