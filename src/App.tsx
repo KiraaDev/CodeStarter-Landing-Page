@@ -4,7 +4,6 @@ import HeroSection from "./components/HeroSection"
 import AboutSection from "./components/AboutSection"
 function App() {
 
-
   return (
     <main className="bg-white min-h-[200svh] dark:bg-gray-950">
       <Header />

@@ -1,4 +1,5 @@
 import React from "react"
+import samplebg from '../assets/imgs/bg.jpg';
 
 const TechStackBadge: React.FC<{ name: string }> = ({ name }) => {
 
@@ -38,12 +39,12 @@ function AboutSection() {
                             </div>
 
                         </div>
-                        <div className="lg:w-1/2 z-10">
+                        <div className="w-2/4 lg:w-1/2 z-10">
                             <div className="relative">
                                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-gray-400 transform -rotate-6 rounded-2xl"></div>
                                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                                     <img
-                                        src="/placeholder.svg?height=600&width=800"
+                                        src={samplebg}
                                         alt="Our Vision"
                                         width={800}
                                         height={600}
