@@ -23,7 +23,7 @@ function Header() {
                                     onClick={toggleNavLinks}
                                     aria-label="Toggle navigation"
                                     aria-expanded={navLinks}
-                                    className="relative p-6 -mr-6 transition-transform duration-300 active:scale-95 focus:outline-none"
+                                    className="relative p-6  cursor-pointer -mr-6 transition-transform duration-300 active:scale-95 focus:outline-none"
                                 >
                                     <span
                                         className={`block m-auto h-0.5 w-5 rounded bg-gray-950 dark:bg-white transition-transform duration-300 
