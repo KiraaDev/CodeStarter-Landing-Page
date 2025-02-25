@@ -15,7 +15,7 @@ function AboutSection() {
 
     const techs = ["React", "Next.js", "TypeScript", "Tailwind CSS"]
     return (
-        <section className="py-24 bg-gradient-to-br">
+        <section className="py-24 bg-gradient-to-br" id="about">
             <div className="container mx-auto px-4">
                 <div className="relative">
 
