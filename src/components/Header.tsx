@@ -42,6 +42,7 @@ function Header() {
                         <div id="navlinks" className={"absolute top-full left-0 z-50 w-full origin-top-right translate-y-1 scale-90 flex-col flex-wrap justify-end gap-6 rounded-3xl border border-gray-100 bg-white p-8 opacity-0 shadow-2xl shadow-gray-600/10 transition-all duration-300 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none lg:visible lg:relative lg:flex lg:w-fit lg:translate-y-0 lg:scale-100 lg:flex-row lg:items-center lg:gap-0 lg:border-none lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none lg:dark:bg-transparent group-data-[state=active]:visible group-data-[state=active]:scale-100 group-data-[state=active]:opacity-100 lg:group-data-[state=active]:translate-y-0"}>
                             <div className="w-full text-gray-600 dark:text-gray-200 lg:w-auto lg:pr-4 lg:pt-0">
                                 <div id="links-group" className="flex flex-col gap-6 tracking-wide lg:flex-row lg:gap-0 lg:text-sm">
+
                                     {
                                         MenuLinks.map((link, index) => (
                                             <a key={index} href={link.path} className="hover:text-primary block transition dark:hover:text-white md:px-4">
@@ -52,7 +53,7 @@ function Header() {
                                 </div>
                             </div>
 
-                          
+
                             <button className="cursor-pointer text-sm font-bold transition-all duration-200 px-4 py-2 rounded-full bg-blue-700 hover:bg-blue-800  border border-transparent flex items-center dark:bg-blue-900  hover:dark:bg-blue-950 active:scale-95 mt-0 group-data-[state=active]:mt-10">
                                 <span className="text-white">Get Started</span>
                                 <svg
