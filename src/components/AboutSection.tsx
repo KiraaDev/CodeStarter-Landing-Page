@@ -37,6 +37,7 @@ function AboutSection() {
                                     <TechStackBadge key={index} name={tech}  />
                                 ))}
                             </div>
+                            rw
 
                         </div>
                         <div className="w-2/4 lg:w-1/2 z-10">
