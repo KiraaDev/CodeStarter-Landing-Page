@@ -10,9 +10,7 @@ function App() {
       
       <div className="pt-[10svh] w-[90%] md:w-[85%] mx-auto flex flex-col items-center">
         <HeroSection />
-        
         <AboutSection />
-
         <FeatureSection />
         {/* <Highlights /> */}
         
