@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { MenuLinks } from "../config/menu";
+import Logo from "./ui/Logo";
 
 function Header() {
     const [navLinks, setNavLinks] = useState<boolean>(false);
@@ -14,10 +15,7 @@ function Header() {
                 <div className="max-w-7xl mx-auto px-6 md:px-12">
                     <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 md:gap-0 md:py-4">
                         <div className="relative z-20 flex w-full justify-between md:px-0 lg:w-fit">
-                            <a href="/#home" aria-label="logo" className="flex items-center space-x-2">
-                                <span className="text-2xl font-medium text-gray-900 dark:text-white">Cod<span className="font-medium scale-x-[-1] inline-block">e</span>Start<span className=" scale-x-[-1] inline-block">e</span>r</span>
-                            </a>
-
+                         <Logo />
                             <div className="relative flex max-h-10 items-center lg:hidden">
                                 <button
                                     onClick={toggleNavLinks}
