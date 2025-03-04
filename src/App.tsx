@@ -2,6 +2,7 @@ import FeatureSection from "./components/FeatureSection"
 import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"
 import AboutSection from "./components/AboutSection"
+import Footer from "./components/Footer"
 function App() {
 
   return (
@@ -13,7 +14,7 @@ function App() {
         <AboutSection />
         <FeatureSection />
         {/* <Highlights /> */}
-        
+        <Footer />
       </div>
       
       
