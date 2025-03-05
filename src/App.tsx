@@ -14,6 +14,7 @@ function App() {
         <AboutSection />
         <FeatureSection />
         {/* <Highlights /> */}
+        <div className="h-[40svh]"></div>   {/* Spacing */}
         <Footer />
       </div>
       

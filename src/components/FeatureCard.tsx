@@ -12,8 +12,8 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ logo, featureName, descriptio
             <div className="flex">
                <img src={logo} alt={featureName} className=" h-15 p-2  rounded-full bg-white dark:bg-gray-950" />
             </div>
-            <h3 className="text-xl font-semibold mt-4 dark:text-[#fafafae5]">{featureName}</h3>
-            <p className="text-gray-600 text-sm mt-2 dark:text-[#c9c9c9]">
+            <h3 className="text-2xl font-semibold mt-4 dark:text-[#fafafae5]">{featureName}</h3>
+            <p className="text-gray-600 text-md mt-2 dark:text-[#c9c9c9]">
                {description}
             </p>
         </div>
